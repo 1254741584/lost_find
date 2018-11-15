@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.yc.dao.LostGoodsMapper">
+	
+	<cache></cache>
+    <!-- CREATE TABLE lost_goods 
+(
+  id INT PRIMARY KEY,
+  name VARCHAR(255),
+  description text,
+  lost_province VARCHAR(50),
+  lost_city VARCHAR(50),
+  lost_district VARCHAR(50),
+  lost_address VARCHAR(255),
+  img VARCHAR(1000),
+  reward VARCHAR(1000),
+  account_id INT,
+  lost_type INT,
+  status INT,
+  create_time INT,
+  update_time INT,
+  lost_start_time INT,
+  lost_end_time INT
+); -->
+    <!-- <resultMap type="LostGoods" id="UserLostGoods">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<collection property="students" ofType="Student" column="id">
+			<id column="sid" property="id"/>
+			<result column="sname" property="name"/>
+			<result column="className" property="className"/>
+		</collection>
+	</resultMap>
+
+    <resultMap type="Teacher" id="teacherMaps">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<result column="class_name" property="className"/>
+		<collection property="students" ofType="Student" select="getStudents" column="id">
+		</collection>
+	</resultMap> -->
+	
+	<!-- <insert id="addLostGoods" parameterType="LostGoods" >
+        insert into lost_goods(name, description, lost_province, lost_city, lost_district, lost_address, img, reward, account_id, lost_type, status, create_time)
+		values(#{name}, #{description}, #{lost_province}, #{lost_city}, #{lost_district}, #{lost_address}, #{img}, #{reward}, #{account_id}, #{lost_type}, #{status}, #{create_time})
+	</insert>
+	
+	<select id="findAllLost" parameterType="HashMap" resultType="HashMap">
+		select * from lost_goods
+        where 1 = 1
+		<if test="status != 0">
+            and status = #{status}
+		</if>
+        <if test="lost_province != ''">
+            and lost_province = #{lost_province}
+		</if>
+        <if test="lost_city != ''">
+            and lost_city = #{lost_city}
+		</if>
+        <if test="lost_district != ''">
+            and lost_district = #{lost_district}
+		</if>
+        <if test="lost_address != ''">
+            and lost_address = #{lost_address}
+		</if>
+        <if test="lost_type != ''">
+            and lost_type = #{lost_type}
+		</if>
+        order by create_time desc
+        limit #{row},#{page}
+	</select>
+
+    <select id="findLostGoodsByUser" parameterType="Integer" resultType="HashMap">
+		select l.* 
+        from lost_goods l 
+        inner join account a 
+        on a.id = l.account_id
+        order by l.create_time desc
+        limit #{row},#{page}
+	</select>
+	
+	<select id="findLostById" parameterType="Integer" resultType="HashMap">
+		select * from lost_goods
+        where id = #{id}
+	</select>
+	
+	
+	<select id="findLostByType" parameterType="Integer" resultType="HashMap">
+		select * from lost_goods where type=#{lost_type}
+	</select> -->
+	<select id="getNewLost" parameterType="HashMap" resultType="HashMap">
+		select * from lost_goods order by create_time limit #{page},#{pageSize}
+	</select>
+	
+	
+</mapper>
