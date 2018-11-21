@@ -27,4 +27,15 @@ public class LostGoodsBizImpl implements LostGoodsBiz {
 		return list;
 	}
 
+
+	@Override
+	public boolean createLost(HashMap<String, Object> params) {
+		try {
+			this.lostGoodsMapper.createLost(params);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
 }

@@ -96,5 +96,10 @@
 		select * from lost_goods order by create_time limit #{page},#{pageSize}
 	</select>
 	
+	<insert id="createLost">
+		insert into lost_goods(name, description, lost_province, lost_city, lost_district, lost_address, img, reward, account_id, lost_type, status, create_time)
+		values(#{name}, #{description}, #{lost_province}, #{lost_city}, #{lost_district}, #{address}, #{img}, #{reward}, #{account_id}, #{lostType}, #{status}, #{create_time})
+	</insert>
+	
 	
 </mapper>

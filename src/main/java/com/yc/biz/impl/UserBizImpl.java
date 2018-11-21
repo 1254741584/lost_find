@@ -23,4 +23,14 @@ public class UserBizImpl implements UserBiz {
 		return user;
 	}
 
+	@Override
+	public boolean register(String account, String password) {
+		try {
+			this.userMapper.register(account, password);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
 }

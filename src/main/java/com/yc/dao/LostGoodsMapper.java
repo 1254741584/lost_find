@@ -8,4 +8,6 @@ import com.yc.bean.LostGoods;
 public interface LostGoodsMapper {
 
 	public List<LostGoods> getNewLost(HashMap<String, Object> pageParams);
+	
+	public boolean createLost(HashMap<String, Object> params);
 }
