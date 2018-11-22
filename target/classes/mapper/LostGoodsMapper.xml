@@ -96,6 +96,28 @@
 		select * from lost_goods order by create_time limit #{page},#{pageSize}
 	</select>
 	
+	<select id="getLostList" parameterType="HashMap" resultType="HashMap">
+		select lg.*, CONCAT_WS(',',lost_province,lost_city,lost_district,lost_address) as address, 
+		lt.name as type_name from lost_goods lg  
+		inner join lost_type lt
+		on lg.lost_type = lt.id
+		where 1 = 1
+        <if test="lost_province != ''">
+            and lg.lost_province = #{lost_province}
+		</if>
+        <if test="lost_city != ''">
+            and lg.lost_city = #{lost_city}
+		</if>
+        <if test="lost_district != ''">
+            and lg.lost_district = #{lost_district}
+		</if>
+        <if test="lostType != 0">
+            and lg.lost_type = #{lostType}
+		</if>
+		order by create_time desc
+		limit #{page},#{pageSize}
+	</select>
+	
 	<insert id="createLost">
 		insert into lost_goods(name, description, lost_province, lost_city, lost_district, lost_address, img, reward, account_id, lost_type, status, create_time)
 		values(#{name}, #{description}, #{lost_province}, #{lost_city}, #{lost_district}, #{address}, #{img}, #{reward}, #{account_id}, #{lostType}, #{status}, #{create_time})

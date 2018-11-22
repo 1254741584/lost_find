@@ -38,4 +38,10 @@ public class LostGoodsBizImpl implements LostGoodsBiz {
 		return true;
 	}
 
+
+	@Override
+	public List<LostGoods> getLostList(HashMap<String, Object> params) {
+		return this.lostGoodsMapper.getLostList(params);
+	}
+
 }

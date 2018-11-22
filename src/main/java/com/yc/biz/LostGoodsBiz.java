@@ -10,4 +10,7 @@ public interface LostGoodsBiz {
 	public List<LostGoods> getNewLost(HashMap<String, Object> pageParams);
 	
 	public boolean createLost(HashMap<String, Object> params);
+	
+	public List<LostGoods> getLostList(HashMap<String, Object> params);
 }
+

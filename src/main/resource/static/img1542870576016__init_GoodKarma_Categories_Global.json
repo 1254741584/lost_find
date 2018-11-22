@@ -1,0 +1,2350 @@
+{
+  "Organization": [],
+  "Group": [],
+  "Page Template": [],
+  "Site Template": [],
+  "Site Template Layout": [],
+  "Layout": [],
+  "Role": [],
+  "User": [],
+  "Organization User Role": [],
+  "Category": [
+    {
+      "Name": "About Us",
+      "Static Category ID": "10000",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Advertise",
+      "Parent Category": "About Us",
+      "Static Category ID": "10001",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Contact Us",
+      "Parent Category": "About Us",
+      "Static Category ID": "10002",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Contests",
+      "Parent Category": "About Us",
+      "Static Category ID": "10003",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Hupy Abraham You Pick Em",
+      "Parent Category": "About Us|Contests",
+      "Static Category ID": "10004",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WI Harley",
+      "Parent Category": "About Us|Contests",
+      "Static Category ID": "10005",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mobile",
+      "Parent Category": "About Us",
+      "Static Category ID": "10006",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mobile Adhoc",
+      "Parent Category": "About Us|Mobile",
+      "Static Category ID": "10007",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Staff",
+      "Parent Category": "About Us",
+      "Static Category ID": "10008",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Brand Spotlight",
+      "Static Category ID": "10009",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "CCT Syndicate",
+      "Static Category ID": "10010",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Conquering Addiction",
+      "Static Category ID": "10011",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Decode DC",
+      "Static Category ID": "10012",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Trail Mix Podcast",
+      "Parent Category": "Decode DC",
+      "Static Category ID": "10013",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "DEV_Ingested",
+      "Static Category ID": "10014",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Entertainment",
+      "Static Category ID": "10015",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Celebrity News",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10016",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "CMA Awards",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10017",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Comics",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10018",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Crosswords",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10019",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Events",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10020",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Movie Reviews",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10021",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sudoku",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10022",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Summerfest",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10023",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Television",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10024",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Lets Ask America",
+      "Parent Category": "Entertainment|Television",
+      "Static Category ID": "10025",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Oscars",
+      "Parent Category": "Entertainment|Television",
+      "Static Category ID": "10026",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Right This Minute",
+      "Parent Category": "Entertainment|Television",
+      "Static Category ID": "10027",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The List",
+      "Parent Category": "Entertainment|Television",
+      "Static Category ID": "10028",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "TV Listings",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10029",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wisconsin State Fair",
+      "Parent Category": "Entertainment",
+      "Static Category ID": "10030",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Features",
+      "Static Category ID": "10031",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "AAWD",
+      "Parent Category": "Features",
+      "Static Category ID": "10032",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Age Expo",
+      "Parent Category": "Features",
+      "Static Category ID": "10033",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "All American",
+      "Parent Category": "Features",
+      "Static Category ID": "10034",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Badger Mutual Insurance Sports Module",
+      "Parent Category": "Features",
+      "Static Category ID": "10035",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Beneco",
+      "Parent Category": "Features",
+      "Static Category ID": "10036",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Brew Food News",
+      "Parent Category": "Features",
+      "Static Category ID": "10037",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Bud Selig Page",
+      "Parent Category": "Features",
+      "Static Category ID": "10038",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Business Scoop Page",
+      "Parent Category": "Features",
+      "Static Category ID": "10039",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Charlie Sykes Uncorked",
+      "Parent Category": "Features",
+      "Static Category ID": "10040",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Classic Free Ride 2017",
+      "Parent Category": "Features",
+      "Static Category ID": "10041",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Drake Retirement",
+      "Parent Category": "Features",
+      "Static Category ID": "10042",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Everyday Health",
+      "Parent Category": "Features",
+      "Static Category ID": "10043",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Family Business Legacy",
+      "Parent Category": "Features",
+      "Static Category ID": "10044",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Featured Promotions",
+      "Parent Category": "Features",
+      "Static Category ID": "10045",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Free Ride",
+      "Parent Category": "Features",
+      "Static Category ID": "10046",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Genes Blog",
+      "Parent Category": "Features",
+      "Static Category ID": "10047",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Holiday Automotive Drive Time",
+      "Parent Category": "Features",
+      "Static Category ID": "10048",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Holiday Radio Show",
+      "Parent Category": "Features",
+      "Static Category ID": "10049",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Jeff Wagner Fall in Love With Your Home",
+      "Parent Category": "Features",
+      "Static Category ID": "10050",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Jeff Wagners Home Improvement",
+      "Parent Category": "Features",
+      "Static Category ID": "10051",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Kowal Investment Group Retirement Minute",
+      "Parent Category": "Features",
+      "Static Category ID": "10052",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Life Transitions",
+      "Parent Category": "Features",
+      "Static Category ID": "10053",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "News Features",
+      "Parent Category": "Features",
+      "Static Category ID": "10054",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "News Staff",
+      "Parent Category": "Features",
+      "Static Category ID": "10055",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Packers Gameday Getaway",
+      "Parent Category": "Features",
+      "Static Category ID": "10056",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Prescient",
+      "Parent Category": "Features",
+      "Static Category ID": "10057",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Summerfest 2017",
+      "Parent Category": "Features",
+      "Static Category ID": "10058",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Summerfest 2018",
+      "Parent Category": "Features",
+      "Static Category ID": "10059",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Tauscher and Kuhn",
+      "Parent Category": "Features",
+      "Static Category ID": "10060",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The Fun Blog",
+      "Parent Category": "Features",
+      "Static Category ID": "10061",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Top 6",
+      "Parent Category": "Features",
+      "Static Category ID": "10062",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Travel WI Network",
+      "Parent Category": "Features",
+      "Static Category ID": "10063",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "TryPod Podcast Page",
+      "Parent Category": "Features",
+      "Static Category ID": "10064",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Upickem",
+      "Parent Category": "Features",
+      "Static Category ID": "10065",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wagners Holiday List",
+      "Parent Category": "Features",
+      "Static Category ID": "10066",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Welcome Home Milwaukee",
+      "Parent Category": "Features",
+      "Static Category ID": "10067",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wellington Home Improvement",
+      "Parent Category": "Features",
+      "Static Category ID": "10068",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Cares",
+      "Parent Category": "Features",
+      "Static Category ID": "10069",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Cares Gene",
+      "Parent Category": "Features",
+      "Static Category ID": "10070",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Cares Honor Flight",
+      "Parent Category": "Features",
+      "Static Category ID": "10071",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Cares Jane",
+      "Parent Category": "Features",
+      "Static Category ID": "10072",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Cares Steve",
+      "Parent Category": "Features",
+      "Static Category ID": "10073",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Your Home Comfort",
+      "Parent Category": "Features",
+      "Static Category ID": "10074",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Your Unlimited Home",
+      "Parent Category": "Features",
+      "Static Category ID": "10075",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Financial Fitness",
+      "Static Category ID": "10076",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Happyholidaygiveaways",
+      "Static Category ID": "10077",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Home",
+      "Static Category ID": "10078",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Homemakeover",
+      "Static Category ID": "10079",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Homepage Gallery",
+      "Static Category ID": "10080",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Homepage Showcase",
+      "Static Category ID": "10081",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Homepage Video",
+      "Static Category ID": "10082",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "iContribute",
+      "Static Category ID": "10083",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "kticountry",
+      "Static Category ID": "10084",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTICountry",
+      "Static Category ID": "10085",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "CMA2015",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10086",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Community Calendar",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10087",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI About Us",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10088",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Advertise",
+      "Parent Category": "KTICountry|KTI About Us",
+      "Static Category ID": "10089",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Contact Us",
+      "Parent Category": "KTICountry|KTI About Us",
+      "Static Category ID": "10090",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Contests",
+      "Parent Category": "KTICountry|KTI About Us",
+      "Static Category ID": "10091",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Connections",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10092",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Entertainment",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10093",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Academy of Country Music Awards",
+      "Parent Category": "KTICountry|KTI Entertainment",
+      "Static Category ID": "10094",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Gossip",
+      "Parent Category": "KTICountry|KTI Entertainment",
+      "Static Category ID": "10095",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI New Country",
+      "Parent Category": "KTICountry|KTI Entertainment",
+      "Static Category ID": "10096",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Home",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10097",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Homepage Gallery",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10098",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Homepage Showcase",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10099",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Homepage Video",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10100",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Listen Live",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10101",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Mobile Showcase",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10102",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI News",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10103",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Newsy",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10104",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Promo",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10105",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Shows",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10106",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Afternoons",
+      "Parent Category": "KTICountry|KTI Shows",
+      "Static Category ID": "10107",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Middays",
+      "Parent Category": "KTICountry|KTI Shows",
+      "Static Category ID": "10108",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Morning Show",
+      "Parent Category": "KTICountry|KTI Shows",
+      "Static Category ID": "10109",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI New Country Nites",
+      "Parent Category": "KTICountry|KTI Shows",
+      "Static Category ID": "10110",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Sports",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10111",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Traffic",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10112",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Video",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10113",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Host Videos",
+      "Parent Category": "KTICountry|KTI Video",
+      "Static Category ID": "10114",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Studio",
+      "Parent Category": "KTICountry|KTI Video",
+      "Static Category ID": "10115",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "KTI Weather",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10116",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WhatsUpWisconsin",
+      "Parent Category": "KTICountry",
+      "Static Category ID": "10117",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Lifestyle",
+      "Static Category ID": "10118",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "BBQ Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10119",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Beauty Fashion Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10120",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Beer Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10121",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Black History Month",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10122",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Community Calendar",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10123",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "cracked",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10124",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Fall Fun Harvest Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10125",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Food",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10126",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Garden Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10127",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Health",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10128",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Health Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10129",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Holiday",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10130",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Black Friday",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10131",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Christmas",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10132",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Easter",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10133",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Fourth of July",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10134",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Halloween",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10135",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Hanukkah",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10136",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Labor Day",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10137",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Memorial Day",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10138",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "New Years Day",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10139",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Passover",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10140",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Seasons Greetings",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10141",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "St Patricks Day",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10142",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Thanksgiving",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10143",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Valentines Day",
+      "Parent Category": "Lifestyle|Holiday",
+      "Static Category ID": "10144",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Holiday Entertaining Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10145",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Home Improvement Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10146",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Horoscope",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10147",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Pet Week Contest",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10148",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wedding Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10149",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wellness",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10150",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Heart Healthy",
+      "Parent Category": "Lifestyle|Wellness",
+      "Static Category ID": "10151",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wine Week",
+      "Parent Category": "Lifestyle",
+      "Static Category ID": "10152",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Listen Live",
+      "Static Category ID": "10153",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Longform",
+      "Static Category ID": "10154",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Marketplace",
+      "Static Category ID": "10155",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Breast Cancer",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10156",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Contests",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10157",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "College Hoops",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10158",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Healthy New Year",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10159",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Holiday Help",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10160",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Holidays",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10161",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mothers Day",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10162",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Newsy Contest",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10163",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Presidents Day",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10164",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Pro Football Contest",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10165",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "School Spirit",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10166",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Spring Clean",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10167",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Summer Road Trip",
+      "Parent Category": "Marketplace|Contests",
+      "Static Category ID": "10168",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Fall",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10169",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Flu",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10170",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Halloween",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10171",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Taxes",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10172",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The Daily Clutch",
+      "Parent Category": "Marketplace",
+      "Static Category ID": "10173",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mobile Livestream 1",
+      "Static Category ID": "10174",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mobile Livestream 2",
+      "Static Category ID": "10175",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Money",
+      "Static Category ID": "10176",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Angies List",
+      "Parent Category": "Money",
+      "Static Category ID": "10177",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Consumer",
+      "Parent Category": "Money",
+      "Static Category ID": "10178",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Business News",
+      "Parent Category": "Money|Consumer",
+      "Static Category ID": "10179",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Coupon",
+      "Parent Category": "Money|Consumer",
+      "Static Category ID": "10180",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Dont Waste Your Money",
+      "Parent Category": "Money|Consumer",
+      "Static Category ID": "10181",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Recalls",
+      "Parent Category": "Money|Consumer",
+      "Static Category ID": "10182",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mothersdaygiveaways",
+      "Static Category ID": "10183",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "NCT",
+      "Static Category ID": "10184",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "CCT Home",
+      "Parent Category": "NCT",
+      "Static Category ID": "10185",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "CCT Radio",
+      "Parent Category": "NCT",
+      "Static Category ID": "10186",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "CCT Video",
+      "Parent Category": "NCT",
+      "Static Category ID": "10187",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Storyful",
+      "Parent Category": "NCT",
+      "Static Category ID": "10188",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "News ",
+      "Static Category ID": "10189",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Back To School",
+      "Parent Category": "News ",
+      "Static Category ID": "10190",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Do My Job",
+      "Parent Category": "News ",
+      "Static Category ID": "10191",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Eclipse",
+      "Parent Category": "News ",
+      "Static Category ID": "10192",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Education",
+      "Parent Category": "News ",
+      "Static Category ID": "10193",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Evergreen",
+      "Parent Category": "News ",
+      "Static Category ID": "10194",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Foxconn Page",
+      "Parent Category": "News ",
+      "Static Category ID": "10195",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Good News",
+      "Parent Category": "News ",
+      "Static Category ID": "10196",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The Delite",
+      "Parent Category": "News |Good News",
+      "Static Category ID": "10197",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Health",
+      "Parent Category": "News ",
+      "Static Category ID": "10198",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Investigations",
+      "Parent Category": "News ",
+      "Static Category ID": "10199",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Las Vegas Shooting",
+      "Parent Category": "News ",
+      "Static Category ID": "10200",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Livestream 1",
+      "Parent Category": "News ",
+      "Static Category ID": "10201",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Livestream 2",
+      "Parent Category": "News ",
+      "Static Category ID": "10202",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Local News",
+      "Parent Category": "News ",
+      "Static Category ID": "10203",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Lottery",
+      "Parent Category": "News ",
+      "Static Category ID": "10204",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "National",
+      "Parent Category": "News ",
+      "Static Category ID": "10205",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Democracy 2018",
+      "Parent Category": "News |National",
+      "Static Category ID": "10206",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "infographics",
+      "Parent Category": "News |National",
+      "Static Category ID": "10207",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Terrorism",
+      "Parent Category": "News |National",
+      "Static Category ID": "10208",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "National Politics",
+      "Parent Category": "News ",
+      "Static Category ID": "10209",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "News Blogs",
+      "Parent Category": "News ",
+      "Static Category ID": "10210",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "News Photo Gallery",
+      "Parent Category": "News ",
+      "Static Category ID": "10211",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Political",
+      "Parent Category": "News ",
+      "Static Category ID": "10212",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Elections",
+      "Parent Category": "News |Political",
+      "Static Category ID": "10213",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Elections Local",
+      "Parent Category": "News |Political",
+      "Static Category ID": "10214",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Elections National",
+      "Parent Category": "News |Political",
+      "Static Category ID": "10215",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Science",
+      "Parent Category": "News ",
+      "Static Category ID": "10216",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Scott Walker",
+      "Parent Category": "News ",
+      "Static Category ID": "10217",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Spelling Bee",
+      "Parent Category": "News ",
+      "Static Category ID": "10218",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "State",
+      "Parent Category": "News ",
+      "Static Category ID": "10219",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Technology",
+      "Parent Category": "News ",
+      "Static Category ID": "10220",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Trade Up Wisconsin",
+      "Parent Category": "News ",
+      "Static Category ID": "10221",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "US News",
+      "Parent Category": "News ",
+      "Static Category ID": "10222",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Watercolor",
+      "Parent Category": "News ",
+      "Static Category ID": "10223",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "World",
+      "Parent Category": "News ",
+      "Static Category ID": "10224",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Zika",
+      "Parent Category": "News ",
+      "Static Category ID": "10225",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Newsy",
+      "Static Category ID": "10226",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Check 2016",
+      "Parent Category": "Newsy",
+      "Static Category ID": "10227",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Scripps Washington Bureau",
+      "Static Category ID": "10228",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Price of Privacy",
+      "Parent Category": "Scripps Washington Bureau",
+      "Static Category ID": "10229",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Search",
+      "Static Category ID": "10230",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Shows",
+      "Static Category ID": "10231",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Accunet",
+      "Parent Category": "Shows",
+      "Static Category ID": "10232",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Brian Noonan",
+      "Parent Category": "Shows",
+      "Static Category ID": "10233",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Charlie Sykes",
+      "Parent Category": "Shows",
+      "Static Category ID": "10234",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Charlie Sykes Podcast",
+      "Parent Category": "Shows|Charlie Sykes",
+      "Static Category ID": "10235",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Darrel Connor",
+      "Parent Category": "Shows",
+      "Static Category ID": "10236",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Designer Yard Show",
+      "Parent Category": "Shows",
+      "Static Category ID": "10237",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Extra Innings",
+      "Parent Category": "Shows",
+      "Static Category ID": "10238",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Fox World Travel",
+      "Parent Category": "Shows",
+      "Static Category ID": "10239",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Health Care Seminar",
+      "Parent Category": "Shows",
+      "Static Category ID": "10240",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Insight",
+      "Parent Category": "Shows",
+      "Static Category ID": "10241",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Jeff Wagner",
+      "Parent Category": "Shows",
+      "Static Category ID": "10242",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Luther Manor",
+      "Parent Category": "Shows",
+      "Static Category ID": "10243",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Money Talk",
+      "Parent Category": "Shows",
+      "Static Category ID": "10244",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Retirement Minute",
+      "Parent Category": "Shows",
+      "Static Category ID": "10245",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Retirement Ready",
+      "Parent Category": "Shows",
+      "Static Category ID": "10246",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "SB Unique Amazing",
+      "Parent Category": "Shows",
+      "Static Category ID": "10247",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Scaffidi and Bilstad Show",
+      "Parent Category": "Shows",
+      "Static Category ID": "10248",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sports Central",
+      "Parent Category": "Shows",
+      "Static Category ID": "10249",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Thursday Scoop",
+      "Parent Category": "Shows",
+      "Static Category ID": "10250",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Travel Wisconsin",
+      "Parent Category": "Shows",
+      "Static Category ID": "10251",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Trending Tuesday",
+      "Parent Category": "Shows",
+      "Static Category ID": "10252",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Waterstone Bank - All Business Show",
+      "Parent Category": "Shows",
+      "Static Category ID": "10253",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wisconsins Afternoon News",
+      "Parent Category": "Shows",
+      "Static Category ID": "10254",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Archived We Love Wisconsin",
+      "Parent Category": "Shows|Wisconsins Afternoon News",
+      "Static Category ID": "10255",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "We Love Wisconsin",
+      "Parent Category": "Shows|Wisconsins Afternoon News",
+      "Static Category ID": "10256",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wisconsins Morning News",
+      "Parent Category": "Shows",
+      "Static Category ID": "10257",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wisconsins Weekend Morning News",
+      "Parent Category": "Shows",
+      "Static Category ID": "10258",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Conversations Page",
+      "Parent Category": "Shows",
+      "Static Category ID": "10259",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Simplemost",
+      "Static Category ID": "10260",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sponsor Generated Content",
+      "Static Category ID": "10261",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sports",
+      "Static Category ID": "10262",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Baseball",
+      "Parent Category": "Sports",
+      "Static Category ID": "10263",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Milwaukee Brewers",
+      "Parent Category": "Sports|Baseball",
+      "Static Category ID": "10264",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Basketball",
+      "Parent Category": "Sports",
+      "Static Category ID": "10265",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Milwaukee Bucks",
+      "Parent Category": "Sports|Basketball",
+      "Static Category ID": "10266",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "BlueGoldOctober",
+      "Parent Category": "Sports",
+      "Static Category ID": "10267",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "College",
+      "Parent Category": "Sports",
+      "Static Category ID": "10268",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "GreenAndGold",
+      "Parent Category": "Sports",
+      "Static Category ID": "10269",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "GreenBay 100 Stories",
+      "Parent Category": "Sports",
+      "Static Category ID": "10270",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Green Bay Packers",
+      "Parent Category": "Sports",
+      "Static Category ID": "10271",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Packers Playoffs",
+      "Parent Category": "Sports|Green Bay Packers",
+      "Static Category ID": "10272",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "High School",
+      "Parent Category": "Sports",
+      "Static Category ID": "10273",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "MLB",
+      "Parent Category": "Sports",
+      "Static Category ID": "10274",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "NBA",
+      "Parent Category": "Sports",
+      "Static Category ID": "10275",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "NFL",
+      "Parent Category": "Sports",
+      "Static Category ID": "10276",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "NHL",
+      "Parent Category": "Sports",
+      "Static Category ID": "10277",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Olympics",
+      "Parent Category": "Sports",
+      "Static Category ID": "10278",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Rio 2016",
+      "Parent Category": "Sports|Olympics",
+      "Static Category ID": "10279",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "PlayByPlay",
+      "Parent Category": "Sports",
+      "Static Category ID": "10280",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Second Screen",
+      "Parent Category": "Sports",
+      "Static Category ID": "10281",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sports Contests",
+      "Parent Category": "Sports",
+      "Static Category ID": "10282",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Winter Games 2018",
+      "Parent Category": "Sports",
+      "Static Category ID": "10283",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Youth",
+      "Parent Category": "Sports",
+      "Static Category ID": "10284",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Storm Shield",
+      "Static Category ID": "10285",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Storm Shield Featured",
+      "Parent Category": "Storm Shield",
+      "Static Category ID": "10286",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Storm Shield Forecast",
+      "Parent Category": "Storm Shield",
+      "Static Category ID": "10287",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Summerfunsweepstakes",
+      "Static Category ID": "10288",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Tablet Showcase",
+      "Static Category ID": "10289",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Traffic",
+      "Static Category ID": "10290",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Cams",
+      "Parent Category": "Traffic",
+      "Static Category ID": "10291",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Gas Prices",
+      "Parent Category": "Traffic",
+      "Static Category ID": "10292",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Valentinesdaygiveaways",
+      "Static Category ID": "10293",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Video",
+      "Static Category ID": "10294",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Archives",
+      "Parent Category": "Video",
+      "Static Category ID": "10295",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Charlie Sykes Videos",
+      "Parent Category": "Video",
+      "Static Category ID": "10296",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Fun Blog Videos",
+      "Parent Category": "Video",
+      "Static Category ID": "10297",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Jeff Wagner Videos",
+      "Parent Category": "Video",
+      "Static Category ID": "10298",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "News",
+      "Parent Category": "Video",
+      "Static Category ID": "10299",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sports",
+      "Parent Category": "Video",
+      "Static Category ID": "10300",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Watch ABC Shows",
+      "Parent Category": "Video",
+      "Static Category ID": "10301",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Weather",
+      "Parent Category": "Video",
+      "Static Category ID": "10302",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wisconsins Afternoon News Videos",
+      "Parent Category": "Video",
+      "Static Category ID": "10303",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Wisconsins Morning News Videos",
+      "Parent Category": "Video",
+      "Static Category ID": "10304",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Weather",
+      "Static Category ID": "10305",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "10 Day Forecast",
+      "Parent Category": "Weather",
+      "Static Category ID": "10306",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "7-Day Forecast",
+      "Parent Category": "Weather",
+      "Static Category ID": "10307",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Alerts",
+      "Parent Category": "Weather",
+      "Static Category ID": "10308",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Closings and Delays",
+      "Parent Category": "Weather",
+      "Static Category ID": "10309",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Forecast",
+      "Parent Category": "Weather",
+      "Static Category ID": "10310",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Todays Forecast",
+      "Parent Category": "Weather|Forecast",
+      "Static Category ID": "10311",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Hurricane",
+      "Parent Category": "Weather",
+      "Static Category ID": "10312",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Interactive Radar",
+      "Parent Category": "Weather",
+      "Static Category ID": "10313",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Maps Radars",
+      "Parent Category": "Weather",
+      "Static Category ID": "10314",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Mobile Showcase",
+      "Parent Category": "Weather",
+      "Static Category ID": "10315",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "More Weather Videos",
+      "Parent Category": "Weather",
+      "Static Category ID": "10316",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "SevereWeather",
+      "Parent Category": "Weather",
+      "Static Category ID": "10317",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Tropical Weather",
+      "Parent Category": "Weather",
+      "Static Category ID": "10318",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WDT Alert",
+      "Parent Category": "Weather",
+      "Static Category ID": "10319",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Weather Activation",
+      "Parent Category": "Weather",
+      "Static Category ID": "10320",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Weather Activation - WTMJ",
+      "Parent Category": "Weather|Weather Activation",
+      "Static Category ID": "10321",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Weather Cams",
+      "Parent Category": "Weather",
+      "Static Category ID": "10322",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Winter",
+      "Parent Category": "Weather",
+      "Static Category ID": "10323",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Podcast Network",
+      "Static Category ID": "10324",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "All Things Packers Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10325",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Blue 58 Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10326",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Jeff Wagner Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10327",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Milk and Honey Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10328",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "MKE TCB Talking Craft Brew Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10329",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Scaffidi and Bilstad",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10330",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Senior Living Today with Luther Manor",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10331",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "Sports Central with Greg Matzek Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10332",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "TechWisconsin Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10333",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The Friday Fish Fry Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10334",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The Intersection of People and Place Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10335",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "The Run Down Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10336",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    },
+    {
+      "Name": "WTMJ Conversations Podcast",
+      "Parent Category": "WTMJ Podcast Network",
+      "Static Category ID": "10337",
+      "Vocabulary": "Content",
+      "Group Name": "Global"
+    }
+  ],
+  "Structure": [],
+  "Template": [],
+  "Web Content": [],
+  "Metadata Set": [],
+  "Document Type": [],
+  "Data Definition": [],
+  "Data List": [],
+  "Data List Record": [],
+  "Custom Fields": [],
+  "Resource Permission": [],
+  "Feed Provider": [],
+  "Feed": [],
+  "Feed Category": [],
+  "Feed Category Mapping": []
+}

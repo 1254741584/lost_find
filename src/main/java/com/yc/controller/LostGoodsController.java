@@ -82,6 +82,7 @@ public class LostGoodsController {
 		}
 		data.put("account_id", account.getId());
 		
+		System.out.println("data=========>");
 		System.out.println(data);
 		boolean res = this.lostGoodsBiz.createLost(data);
 		
@@ -106,7 +107,6 @@ public class LostGoodsController {
         }
 		String filePath = "D:\\file\\";
 		
-		
 		for (int i = 0; i < files.size(); i++) {
 	        MultipartFile file = files.get(i);
 	        String fileName = file.getOriginalFilename();
@@ -128,7 +128,50 @@ public class LostGoodsController {
 	
 	@RequestMapping("/lost/list")
 	public HashMap<String, Object> getLostList(HttpServletRequest request) {
-		HashMap<String, Object> data = new HashMap<String, Object>(); 
-		return data;
+		HashMap<String, Object> data = new HashMap<String, Object>();
+		String page = request.getParameter("page");
+		String pageSize = request.getParameter("pageSize");
+		String lostType = request.getParameter("lostType");
+		
+		String lost_province = request.getParameter("lost_province");
+		String lost_city = request.getParameter("lost_city");
+		String lost_district = request.getParameter("lost_district");
+		
+		data.put("lostType", transformInt(lostType));
+		data.put("pageSize", transformInt(pageSize));
+		data.put("page", getPage(page, pageSize));
+		data.put("lost_district", transformString(lost_district));
+		data.put("lost_city", transformString(lost_city));
+		data.put("lost_province", transformString(lost_province));
+		List<LostGoods> list = this.lostGoodsBiz.getLostList(data);
+		
+		HashMap<String, Object> res = new HashMap<String, Object>();
+		res.put("status", "success");
+		res.put("data", list);
+		
+		System.out.println(list);
+		
+		return res;
+	}
+	
+	public int getPage(String page, String pageSize) {
+		int intPage = transformInt(page);
+		int intPageSize = transformInt(pageSize);
+		
+		return (intPage - 1) * intPageSize;
+	}
+	
+	public int transformInt(String data) {
+		if (data != null && !data.equals("")) {
+			return Integer.valueOf(data);
+		}
+		return 0;
+	}
+	
+	public String transformString(String data) {
+		if (data != null) {
+			return data;
+		}
+		return "";
 	}
 }

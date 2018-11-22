@@ -18,6 +18,9 @@ CREATE TABLE lost_goods
   lost_end_time INT
 );
 
+select name,(lost_province + lost_city + lost_district + lost_address) as address from lost_goods ;
+
+
 select * from lost_goods;
 
 insert into lost_goods(name, account_id, lost_type, status, create_time) value('lost_goods', 1, 1, 1, 1000);
