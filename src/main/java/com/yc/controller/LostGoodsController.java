@@ -148,6 +148,7 @@ public class LostGoodsController {
 		HashMap<String, Object> res = new HashMap<String, Object>();
 		res.put("status", "success");
 		res.put("data", list);
+		res.put("len", list.size());
 		
 		System.out.println(list);
 		

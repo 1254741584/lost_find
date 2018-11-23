@@ -5,8 +5,8 @@
 
 
 <mapper namespace="com.yc.dao.UserMapper">
-	
 	<cache></cache>
+	<!-- <cache type="com.yc.redis.MybatisRedisCache" /> -->
 	
 	<select id="login" parameterType="String" resultType="Account">
 		select * from account where name=#{account} and password=#{password}

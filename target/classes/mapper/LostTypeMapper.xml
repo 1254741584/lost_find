@@ -7,6 +7,7 @@
 <mapper namespace="com.yc.dao.LostTypeMapper">
 	
 	<cache></cache>
+	<!-- <cache type="com.yc.redis.MybatisRedisCache" /> -->
 	
 	<select id="getTypeList" parameterType="String" resultType="HashMap">
 		select * from lost_type

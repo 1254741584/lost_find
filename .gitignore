@@ -1,3 +1,6 @@
-*/target/*
+*/target/**
+*.log
+*.gz
+target/**
 *.log
 *.gz
